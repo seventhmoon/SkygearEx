@@ -37,6 +37,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.google.guava:guava:20.0'
+
     compile 'io.skygear:skygear:0.21.0'
     testCompile 'junit:junit:4.12'
 }
